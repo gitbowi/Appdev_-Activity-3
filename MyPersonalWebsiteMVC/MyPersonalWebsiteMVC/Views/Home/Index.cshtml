@@ -1,0 +1,28 @@
+﻿@model MyPersonalWebsiteMVC.Models.Profile
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h1>@Model.FullName</h1>
+
+<p>
+    @Model.ShortBio
+</p>
+
+<ul>
+    <li><strong>Age:</strong> @Model.Age</li>
+    <li><strong>Favorite Color:</strong> @Model.FavoriteColor</li>
+</ul>
+
+<h3>Why Computer Science?</h3>
+
+<p>
+    @Model.Motivation
+</p>
+
+<h3>Learning Goals</h3>
+
+<p>
+    @Model.Goals
+</p>
